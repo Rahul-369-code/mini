@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.main{
+    width: 100%;
+    background: linear-gradient(to top, rgba(4, 4, 4, 0.5)50%,rgba(0,0,0,0.5)50%), url(fam.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 109vh;
+}
+
+.navbar{
+    width: 1400px;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-self: center;
+    justify-content: space-between;
+}
+
+
+.icon{
+    width: 120px;
+    float: left;
+    height: 50px;
+
+}
+
+
+.logo{
+   width: 120px;
+   color: rgb(236, 233, 233);
+   font-size: 40px;
+   font-family: Arial;
+   padding-left: 1px;
+   float: left;
+   padding-top: 1px;
+   cursor: pointer;
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+}
+
+.menu{
+    
+        width: 100%;
+        position: absolute;
+        top: 40%;
+        transform: translateY(-50%);
+        text-align: center;
+        color: rgb(247, 243, 243);
+    }
+
+
+
+ul{
+    float: center;
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+}
+
+ul li{
+    list-style: none;
+    margin-left: 50px;
+    margin-top: 200px;
+    font-size: 20px;
+    
+}
+
+ul li a{
+    text-decoration: none;
+    color: aliceblue;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+
+ul li a:hover{
+    color: rgb(52, 174, 36);
+}
+
